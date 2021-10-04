@@ -22,10 +22,7 @@ const ProfileMenu = () => {
     const handleClose = () => {
         setAnchorEl(null);
     };
-    const signOut = () => {
-        handleClose();
-        dispatch(signOutUser());
-        history.push("/signin");
+   
     };
     return (
         <div>
