@@ -51,11 +51,7 @@ const browseMovies = async (req, res) => {
     }
 };
 
-const browseTVShows = async (req, res) => {
-    try {
-        const fetchData = async ({ name, url }) => {
-            const { data } = await axios.get(url);
-            return { title: name, data: data.results };
+
         };
         const rows = requestsTVShows.map((elem) => ({ ...elem, name: `${elem.name} TV Shows` }));
         const results = await axios.all(rows.map((elem) => fetchData(elem)));
