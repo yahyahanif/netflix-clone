@@ -6,6 +6,6 @@ const authGoogle = passport.authenticate("google", {
     scope: ["profile", "email"],
 });
 
-const authGoogleCallback = passport.authenticate("google", { failureRedirect: "/signin", session: false });
+const authGoogleCallback = passport.authenticate
 
 export { auth, authGoogle, authGoogleCallback };
