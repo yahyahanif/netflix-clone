@@ -90,6 +90,10 @@ const useStyles = makeStyles((theme) => ({
             backgroundColor: "rgba(0,0,0,.9)",
             border: "1px solid rgb(20,20,20)",
         },
+         const signOut = () => {
+        handleClose();
+        dispatch(signOutUser());
+        history.push("/signin");
     },
     menuItem: {
         "&:hover": {
