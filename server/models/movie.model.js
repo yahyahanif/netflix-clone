@@ -20,13 +20,7 @@ const movieSchema = new mongoose.Schema(
             required: true,
         },
         genres: {
-            type: [
-                {
-                    genreId: String,
-                    genreName: String,
-                },
-            ],
-            required: true,
+            
         },
         release_date: {
             type: String,
