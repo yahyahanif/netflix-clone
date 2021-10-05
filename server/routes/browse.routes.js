@@ -10,4 +10,3 @@ router.route("/movies").get(auth,browseMovies);
 router.route("/tvshows").get(auth,browseTVShows);
 
 
-export default router;
