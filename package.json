@@ -1,7 +1,7 @@
 {
   "name": "tunflix",
   "version": "1.0.0",
-  "description": "streaming website",
+  "description": "streaming wesite",
   "main": "server.js",
   "scripts": {
     "start": "concurrently \"babel-node server\" \"cd client && npm start\"",
