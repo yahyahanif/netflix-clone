@@ -3,7 +3,7 @@ X-Netflix is a streaming platform based on Netflix UI: built with ReactJS in fro
 
 ## Built with
 
-  <b>FrontEnd:</b> React.JS, Redux Library, Material UI, CSS
+  <b>FrontEnd:</b> React.JS, Redux Library, Material UI, CSS 
   <b>Backend: </b> Node.JS, Express.JS, Passportjs
   <b>Database:</b>MongoDB, Mongoose
 </ul>
